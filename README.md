@@ -14,7 +14,7 @@ All the files required have been put under the [data_files](data_files/.) folder
 
 These were obtained by scrapping data off of the web. The code for the scrapping (using BeautifulSoup in Python) is not included in this repository as it is not relevant to the task of this week's assignment.
 
-To know more about these file contents please go to the [data_files](data_files/.) folder and see the README.md file there. 
+To know more about these file contents please go to the [data_files](data_files/.) folder and see the [README.md](data_files/README.md) file there. 
 
 ## File Descriptions
 ### [main.py](main.py)
