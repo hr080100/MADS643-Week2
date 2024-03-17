@@ -20,7 +20,9 @@ To know more about these file contents please go to the [data_files](data_files/
 ### [main.py](main.py)
 This is the main file.
 
+``` bash
 python main.py data_files/missing_person_output.csv data_files/caves_output.csv data_files/county_pop.xlsx
+```
 
 ### [missing_persons.py](missing_persons.py)
 This is the missing persons file.
