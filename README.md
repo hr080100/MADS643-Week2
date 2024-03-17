@@ -5,7 +5,7 @@ The task for this assignment was to convert an old Jupyter Notebook to a python 
  For this task I have selected one old file that was a part of the Cave Data v/s Missing People analysis. This project was to understand if there exists any relationship between the people that go missing and the cave densities in counties in the United States (To limit the scope due to time restrictions only the US was selected for this).
 
 ## Data Files
-All the files required have been put under the [data_files](data_files/.) folder. We have used four differnet datasets for this analysis - 
+All the files required have been put under the [data_files](data_files/.) folder. We have used four different datasets for this analysis - 
 
 1. [Missing People](data_files/missing_person_output.csv) dataset ([Source](https://www.namus.gov/MissingPersons/Search#/results))
 2. [Caves](data_files/caves_output.csv) dataset ([Source](https://cave-exploring.com/index.php/long-and-deep-caves-of-the-world/usa-long-caves-by-state/))
