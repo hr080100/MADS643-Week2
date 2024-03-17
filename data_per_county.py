@@ -7,7 +7,15 @@ population data and returns a grouped dataframe.
 import pandas as pd
 import numpy as np
 
+# Creating a function to create data per county population and caves.
 def data_per_county(missing_persons, caves, county_pop):
+    """
+    This functions taken in all the three original datasets
+    and returns a new dataframe created by grouping the data
+    by county and merging the datasets accordingly.
+    It also adds two new columns that add the average of
+    missing people and caves per 100,000 people.
+    """
     # Aggregate Caves Data: Count the number of caves by county
     caves_per_county = caves.groupby(['County', 'State']).size().reset_index(name='Cave_Count')
 
@@ -29,7 +37,15 @@ def data_per_county(missing_persons, caves, county_pop):
 
     return analysis_df
 
+# Creating a function to create data using the 50% quantile method.
 def missing_per_pop_by_caves(analysis_df):
+    """
+    This function takes the dataset that was generated from the
+    above function and generates a new dataset that has values
+    differentiatin the missing people in the counties with
+    no caves, lower number of caves than the 50% mark and
+    higher number of caves than the 50% mark.
+    """
     # Separate counties with and without caves
     with_caves = analysis_df[analysis_df.loc[:, 'Caves_per_100k'] > 0]
     without_caves = analysis_df[analysis_df.loc[:, 'Caves_per_100k'] <= 0]
