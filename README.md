@@ -12,9 +12,9 @@ All the files required have been put under the [data_files](data_files/.) folder
 3. [Population by Counties](data_files/county_pop.xlsx) dataset ([Source](https://www2.census.gov/programs-surveys/popest/tables/2020-2023/counties/totals/co-est2023-pop.xlsx))
 4. [US States Abbreviations and Full Forms](data_files/us_states.csv) dataset (Generated Manually)
 
-These were obtained by scrapping data off of the web. The code for the scrapping (using BeautifulSoup in python) is not included in this repository as it is not relevant to the task of this week's assignment.
+These were obtained by scrapping data off of the web. The code for the scrapping (using BeautifulSoup in Python) is not included in this repository as it is not relevant to the task of this week's assignment.
 
-To know more about these file contents please go in the data_files folder and see the README.md file there. 
+To know more about these file contents please go to the [data_files](data_files/.) folder and see the README.md file there. 
 
 ## File Descriptions
 ### [main.py](main.py)
