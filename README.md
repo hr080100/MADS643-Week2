@@ -4,18 +4,6 @@ The task for this assignment was to convert an old Jupyter Notebook to a python 
 ## Description
  For this task I have selected one old file that was a part of the Cave Data v/s Missing People analysis. This project was to understand if there exists any relationship between the people that go missing and the cave densities in counties in the United States (To limit the scope due to time restrictions only the US was selected for this).
 
-## Data Files
-All the files required have been put under the [data_files](data_files/.) folder. We have used four different datasets for this analysis - 
-
-1. [Missing People](data_files/missing_person_output.csv) dataset ([Source](https://www.namus.gov/MissingPersons/Search#/results))
-2. [Caves](data_files/caves_output.csv) dataset ([Source](https://cave-exploring.com/index.php/long-and-deep-caves-of-the-world/usa-long-caves-by-state/))
-3. [Population by Counties](data_files/county_pop.xlsx) dataset ([Source](https://www2.census.gov/programs-surveys/popest/tables/2020-2023/counties/totals/co-est2023-pop.xlsx))
-4. [US States Abbreviations and Full Forms](data_files/us_states.csv) dataset (Generated Manually)
-
-These were obtained by scrapping data off of the web. The code for the scrapping (using BeautifulSoup in Python) is not included in this repository as it is not relevant to the task of this week's assignment.
-
-To know more about these file contents please go to the [data_files](data_files/.) folder and see the [README.md](data_files/README.md) file there. 
-
 ## File Descriptions
 ### [main.py](main.py)
 This is the main file.
@@ -55,3 +43,18 @@ But, more can be known about all the dependencies (which are usually already pre
 
 ### [README.md](README.md)
 This is just this very readme file containing the brief but detailed description of things in this repository.
+
+## Data Files
+All the files required have been put under the [data_files](data_files/.) folder. We have used four different datasets for this analysis - 
+
+1. [Missing People](data_files/missing_person_output.csv) dataset ([Source](https://www.namus.gov/MissingPersons/Search#/results))
+2. [Caves](data_files/caves_output.csv) dataset ([Source](https://cave-exploring.com/index.php/long-and-deep-caves-of-the-world/usa-long-caves-by-state/))
+3. [Population by Counties](data_files/county_pop.xlsx) dataset ([Source](https://www2.census.gov/programs-surveys/popest/tables/2020-2023/counties/totals/co-est2023-pop.xlsx))
+4. [US States Abbreviations and Full Forms](data_files/us_states.csv) dataset (Generated Manually)
+
+These were obtained by scrapping data off of the web. The code for the scrapping (using BeautifulSoup in Python) is not included in this repository as it is not relevant to the task of this week's assignment.
+
+To know more about these file contents please go to the [data_files](data_files/.) folder and see the [README.md](data_files/README.md) file there. 
+
+## Output Graphs
+This folder stores all the five graphs created by the [main.py](main.py) file. To know more about these graphs please go to the [output_graphs](output_graphs/.) folder and look at the [README.md](output_graphs/README.md) file there
