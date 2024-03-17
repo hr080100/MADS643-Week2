@@ -24,7 +24,7 @@ def clean_missing_persons(missing_persons_data):
     processing.
     """
     # All the columns are twice, so keeping the one iteration.
-    missing_persons_data = missing_persons_data[['2', '4', '6', '8', '10', '12', '14',
+    missing_persons_data = missing_persons_data.loc[:, ['2', '4', '6', '8', '10', '12', '14',
                                        '16', '18', '20', '22']]
     # Renaming the columns correctly.
     missing_persons_data.columns = ['Case', 'DLC', 'Last_Name', 'First_Name', 'Age',
