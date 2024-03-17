@@ -38,15 +38,15 @@ if __name__ == '__main__':
 
     # Creating a countplot of the number of caves by each
     # state in the USA.
-    gp.caves_by_state_countplot(caves).show()
+    gp.caves_by_state_countplot(caves).savefig('output_graphs/caves_by_state_countplot')
 
     # Creating a countplot of the number of people gone
     # missing by year
-    gp.missing_persons_by_year_countplot(missing_persons).show()
+    gp.missing_persons_by_year_countplot(missing_persons).savefig('output_graphs/missing_persons_by_year_countplot')
 
     # Creating a histplot of the number of people gone
     # missing by thier age and gender.
-    gp.missing_persons_by_age_and_gender_histplot(missing_persons).show()
+    gp.missing_persons_by_age_and_gender_histplot(missing_persons).savefig('output_graphs/missing_persons_by_age_and_gender_histplot')
 
     # Getting analysis_df that has all the combined data
     # of missing people, county and populations.
@@ -54,10 +54,10 @@ if __name__ == '__main__':
     # Creating a scatterplot of the people missing per
     # 100,000 people (population) and the cave density per
     # 100,000 people (population).
-    gp.missing_persons_per_pop_scatterplot(analysis_df).show()
+    gp.missing_persons_per_pop_scatterplot(analysis_df).savefig('output_graphs/missing_persons_per_pop_scatterplot')
 
     # Analysis of missing people in counties with no caves,
     # lower half and upper half based on 50% percentile.
     avg_missing_by_density = dpc.missing_per_pop_by_caves(analysis_df)
     # Creating a barplot based on the percentile above.
-    gp.avg_missing_by_density_barplot(avg_missing_by_density).show()
+    gp.avg_missing_by_density_barplot(avg_missing_by_density).savefig('output_graphs/avg_missing_by_density_barplot')
