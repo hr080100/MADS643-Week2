@@ -2,7 +2,7 @@
 The task for this assignment was to convert an old Jupyter Notebook to a python script.
 
 ## Description
- So, for this task I have selected one old file that was a part of the Cave Data v/s Missing People analysis. This project was to understand if there exists any relationship between the people that go missing and the cave densities in counties in the United States (To limit the scope due to time restrictions only the US was selected for this).
+ For this task I have selected one old file that was a part of the Cave Data v/s Missing People analysis. This project was to understand if there exists any relationship between the people that go missing and the cave densities in counties in the United States (To limit the scope due to time restrictions only the US was selected for this).
 
 ## Data Files
 All the files required have been put under the data_files folder. We have used four differnet datasets for this analysis - 
@@ -47,8 +47,9 @@ This is the requirements for the project to run correctly. For reference the cod
 3. pandas
 4. matplotlib
 5. seaborn
+6. openpyxl
 
 But, more can be known about all the dependencies (which are usually already present in any python environment) using this requirements.txt file.
 
 ### [README.md](README.md)
-This is just this readme file containing the brief but detailed description of things in this repository.
+This is just this very readme file containing the brief but detailed description of things in this repository.
