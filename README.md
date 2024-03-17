@@ -57,4 +57,4 @@ These were obtained by scrapping data off of the web. The code for the scrapping
 To know more about these file contents please go to the [data_files](data_files/.) folder and see the [README.md](data_files/README.md) file there. 
 
 ## Output Graphs
-This folder stores all the five graphs created by the [main.py](main.py) file. To know more about these graphs please go to the [output_graphs](output_graphs/.) folder and look at the [README.md](output_graphs/README.md) file there
+This folder stores all the five graphs created by the [main.py](main.py) file. To know more about these graphs please go to the [output_graphs](output_graphs/.) folder and look at the [README.md](output_graphs/README.md) file there.
